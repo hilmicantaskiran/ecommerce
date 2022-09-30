@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col justify-center items-center sm:h-72 bg-white p-2 drop-shadow"
+  >
+    <a
+      class="flex flex-col group"
+      href="/product/1"
+      id="product"
+    >
+      <div
+        class="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-8 xl:aspect-h-10"
+      >
+        <img
+          alt="product"
+          class="w-full h-full object-center object-cover group-hover:opacity-75"
+          src="https://via.placeholder.com/150"
+        />
+      </div>
+      <h3
+        class="mt-4 font-medium text-sm text-[#2a59fe]"
+      >
+        100₺
+      </h3>
+      <p
+        class="mt-1 font-medium text-gray-900"
+      >
+        Brand 1 Model 1
+      </p>
+    </a>
+    <button
+      class="w-full mt-10 sm:mt-auto bg-[#2a59fe] text-white py-2 px-4 rounded-lg"
+      id="addToCart"
+    >
+      Add to Cart
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card should render correctly with no brand 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col justify-center items-center sm:h-72 bg-white p-2 drop-shadow"
+  >
+    <a
+      class="flex flex-col group"
+      href="/product/1"
+      id="product"
+    >
+      <div
+        class="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-8 xl:aspect-h-10"
+      >
+        <img
+          alt="product"
+          class="w-full h-full object-center object-cover group-hover:opacity-75"
+          src="https://via.placeholder.com/150"
+        />
+      </div>
+      <h3
+        class="mt-4 font-medium text-sm text-[#2a59fe]"
+      >
+        100₺
+      </h3>
+      <p
+        class="mt-1 font-medium text-gray-900"
+      >
+        Brand 1 Model 1
+      </p>
+    </a>
+    <button
+      class="w-full mt-10 sm:mt-auto bg-[#2a59fe] text-white py-2 px-4 rounded-lg"
+      id="addToCart"
+    >
+      Add to Cart
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card should render correctly with no brand and model 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col justify-center items-center sm:h-72 bg-white p-2 drop-shadow"
+  >
+    <a
+      class="flex flex-col group"
+      href="/product/1"
+      id="product"
+    >
+      <div
+        class="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-8 xl:aspect-h-10"
+      >
+        <img
+          alt="product"
+          class="w-full h-full object-center object-cover group-hover:opacity-75"
+          src="https://via.placeholder.com/150"
+        />
+      </div>
+      <h3
+        class="mt-4 font-medium text-sm text-[#2a59fe]"
+      >
+        100₺
+      </h3>
+      <p
+        class="mt-1 font-medium text-gray-900"
+      >
+        Brand 1 Model 1
+      </p>
+    </a>
+    <button
+      class="w-full mt-10 sm:mt-auto bg-[#2a59fe] text-white py-2 px-4 rounded-lg"
+      id="addToCart"
+    >
+      Add to Cart
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card should render correctly with no brand and model and price 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col justify-center items-center sm:h-72 bg-white p-2 drop-shadow"
+  >
+    <a
+      class="flex flex-col group"
+      href="/product/1"
+      id="product"
+    >
+      <div
+        class="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-8 xl:aspect-h-10"
+      >
+        <img
+          alt="product"
+          class="w-full h-full object-center object-cover group-hover:opacity-75"
+          src="https://via.placeholder.com/150"
+        />
+      </div>
+      <h3
+        class="mt-4 font-medium text-sm text-[#2a59fe]"
+      >
+        100₺
+      </h3>
+      <p
+        class="mt-1 font-medium text-gray-900"
+      >
+        Brand 1 Model 1
+      </p>
+    </a>
+    <button
+      class="w-full mt-10 sm:mt-auto bg-[#2a59fe] text-white py-2 px-4 rounded-lg"
+      id="addToCart"
+    >
+      Add to Cart
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card should render correctly with no brand and model and price and image 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col justify-center items-center sm:h-72 bg-white p-2 drop-shadow"
+  >
+    <a
+      class="flex flex-col group"
+      href="/product/1"
+      id="product"
+    >
+      <div
+        class="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-8 xl:aspect-h-10"
+      >
+        <img
+          alt="product"
+          class="w-full h-full object-center object-cover group-hover:opacity-75"
+          src="https://via.placeholder.com/150"
+        />
+      </div>
+      <h3
+        class="mt-4 font-medium text-sm text-[#2a59fe]"
+      >
+        100₺
+      </h3>
+      <p
+        class="mt-1 font-medium text-gray-900"
+      >
+        Brand 1 Model 1
+      </p>
+    </a>
+    <button
+      class="w-full mt-10 sm:mt-auto bg-[#2a59fe] text-white py-2 px-4 rounded-lg"
+      id="addToCart"
+    >
+      Add to Cart
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card should render correctly with no description 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col justify-center items-center sm:h-72 bg-white p-2 drop-shadow"
+  >
+    <a
+      class="flex flex-col group"
+      href="/product/1"
+      id="product"
+    >
+      <div
+        class="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-8 xl:aspect-h-10"
+      >
+        <img
+          alt="product"
+          class="w-full h-full object-center object-cover group-hover:opacity-75"
+          src="https://via.placeholder.com/150"
+        />
+      </div>
+      <h3
+        class="mt-4 font-medium text-sm text-[#2a59fe]"
+      >
+        100₺
+      </h3>
+      <p
+        class="mt-1 font-medium text-gray-900"
+      >
+        Brand 1 Model 1
+      </p>
+    </a>
+    <button
+      class="w-full mt-10 sm:mt-auto bg-[#2a59fe] text-white py-2 px-4 rounded-lg"
+      id="addToCart"
+    >
+      Add to Cart
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card should render correctly with no image 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col justify-center items-center sm:h-72 bg-white p-2 drop-shadow"
+  >
+    <a
+      class="flex flex-col group"
+      href="/product/1"
+      id="product"
+    >
+      <div
+        class="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-8 xl:aspect-h-10"
+      >
+        <img
+          alt="product"
+          class="w-full h-full object-center object-cover group-hover:opacity-75"
+          src="https://via.placeholder.com/150"
+        />
+      </div>
+      <h3
+        class="mt-4 font-medium text-sm text-[#2a59fe]"
+      >
+        100₺
+      </h3>
+      <p
+        class="mt-1 font-medium text-gray-900"
+      >
+        Brand 1 Model 1
+      </p>
+    </a>
+    <button
+      class="w-full mt-10 sm:mt-auto bg-[#2a59fe] text-white py-2 px-4 rounded-lg"
+      id="addToCart"
+    >
+      Add to Cart
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card should render correctly with no model 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col justify-center items-center sm:h-72 bg-white p-2 drop-shadow"
+  >
+    <a
+      class="flex flex-col group"
+      href="/product/1"
+      id="product"
+    >
+      <div
+        class="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-8 xl:aspect-h-10"
+      >
+        <img
+          alt="product"
+          class="w-full h-full object-center object-cover group-hover:opacity-75"
+          src="https://via.placeholder.com/150"
+        />
+      </div>
+      <h3
+        class="mt-4 font-medium text-sm text-[#2a59fe]"
+      >
+        100₺
+      </h3>
+      <p
+        class="mt-1 font-medium text-gray-900"
+      >
+        Brand 1 Model 1
+      </p>
+    </a>
+    <button
+      class="w-full mt-10 sm:mt-auto bg-[#2a59fe] text-white py-2 px-4 rounded-lg"
+      id="addToCart"
+    >
+      Add to Cart
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card should render correctly with no price 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col justify-center items-center sm:h-72 bg-white p-2 drop-shadow"
+  >
+    <a
+      class="flex flex-col group"
+      href="/product/1"
+      id="product"
+    >
+      <div
+        class="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-8 xl:aspect-h-10"
+      >
+        <img
+          alt="product"
+          class="w-full h-full object-center object-cover group-hover:opacity-75"
+          src="https://via.placeholder.com/150"
+        />
+      </div>
+      <h3
+        class="mt-4 font-medium text-sm text-[#2a59fe]"
+      >
+        100₺
+      </h3>
+      <p
+        class="mt-1 font-medium text-gray-900"
+      >
+        Brand 1 Model 1
+      </p>
+    </a>
+    <button
+      class="w-full mt-10 sm:mt-auto bg-[#2a59fe] text-white py-2 px-4 rounded-lg"
+      id="addToCart"
+    >
+      Add to Cart
+    </button>
+  </div>
+</DocumentFragment>
+`;

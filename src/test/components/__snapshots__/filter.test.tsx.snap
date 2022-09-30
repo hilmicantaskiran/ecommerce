@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="relative flex-col px-6 sm:p-0 space-y-4"
+  >
+    <div
+      class="flex flex-col"
+    >
+      <p
+        class="font-medium text-sm text-gray-400 my-2"
+      >
+        Sort By
+      </p>
+      <ul
+        class="space-y-4 bg-white p-4 drop-shadow-lg"
+      >
+        <li
+          class="flex items-center"
+        >
+          <input
+            checked=""
+            class="form-radio h-4 w-4 text-blue-500"
+            id="Old to New"
+            name="sort"
+            type="radio"
+            value="Old to New"
+          />
+          <label
+            class="block ml-3 text-sm font-medium text-gray-700"
+            for="Old to New"
+          >
+             Old to New 
+          </label>
+        </li>
+        <li
+          class="flex items-center"
+        >
+          <input
+            class="form-radio h-4 w-4 text-blue-500"
+            id="New to Old"
+            name="sort"
+            type="radio"
+            value="New to Old"
+          />
+          <label
+            class="block ml-3 text-sm font-medium text-gray-700"
+            for="New to Old"
+          >
+             New to Old 
+          </label>
+        </li>
+        <li
+          class="flex items-center"
+        >
+          <input
+            class="form-radio h-4 w-4 text-blue-500"
+            id="Price Low to High"
+            name="sort"
+            type="radio"
+            value="Price Low to High"
+          />
+          <label
+            class="block ml-3 text-sm font-medium text-gray-700"
+            for="Price Low to High"
+          >
+             Price Low to High 
+          </label>
+        </li>
+        <li
+          class="flex items-center"
+        >
+          <input
+            class="form-radio h-4 w-4 text-blue-500"
+            id="Price High to Low"
+            name="sort"
+            type="radio"
+            value="Price High to Low"
+          />
+          <label
+            class="block ml-3 text-sm font-medium text-gray-700"
+            for="Price High to Low"
+          >
+             Price High to Low 
+          </label>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <p
+        class="font-medium text-sm text-gray-400 my-2"
+      >
+        Brands
+      </p>
+      <div
+        class="bg-white drop-shadow-lg"
+      >
+        <div
+          class="mt-2 sm:mt-0 p-2"
+        >
+          <label
+            class="mb-2 font-medium text-gray-900 sr-only"
+            for="search-brand"
+          >
+            Search
+          </label>
+          <div
+            class="relative"
+          >
+            <div
+              class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"
+            >
+              <svg
+                aria-hidden="true"
+                class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <input
+              class="block p-2 text-sm pl-10 w-full text-gray-900 bg-gray-50 border border-gray-300"
+              id="search-brand"
+              placeholder="Search"
+              required=""
+              type="search"
+            />
+          </div>
+        </div>
+        <ul
+          class="space-y-4 p-4 h-48 overflow-y-auto scrollbar "
+        >
+          <li
+            class="flex items-center"
+          >
+            <input
+              class="form-radio h-4 w-4 text-blue-500"
+              id="Brand 1"
+              name="brand"
+              type="checkbox"
+              value="Brand 1"
+            />
+            <label
+              class="block ml-3 text-sm font-medium text-gray-700"
+              for="Brand 1"
+            >
+               Brand 1 
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <p
+        class="font-medium text-sm text-gray-400 my-2"
+      >
+        Models
+      </p>
+      <div
+        class="bg-white drop-shadow-lg"
+      >
+        <div
+          class="mt-2 sm:mt-0 p-2"
+        >
+          <label
+            class="mb-2 font-medium text-gray-900 sr-only"
+            for="search-model"
+          >
+            Search
+          </label>
+          <div
+            class="relative"
+          >
+            <div
+              class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"
+            >
+              <svg
+                aria-hidden="true"
+                class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <input
+              class="block p-2 text-sm pl-10 w-full text-gray-900 bg-gray-50 border border-gray-300"
+              id="search-model"
+              placeholder="Search"
+              required=""
+              type="search"
+            />
+          </div>
+        </div>
+        <ul
+          class="space-y-4 bg-white p-4 h-48 overflow-y-auto scrollbar"
+        >
+          <li
+            class="flex items-center"
+          >
+            <input
+              class="form-radio h-4 w-4 text-blue-500"
+              id="Model 1"
+              name="model"
+              type="checkbox"
+              value="Model 1"
+            />
+            <label
+              class="block ml-3 text-sm font-medium text-gray-700"
+              for="Model 1"
+            >
+               Model 1 
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
