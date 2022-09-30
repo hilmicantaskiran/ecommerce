@@ -10,12 +10,6 @@ An application built with React, Redux, TypeScript, and TailwindCSS.
  - Filtering
  - Search
 
-## Screen Shots
-Product Listing Page:
-![Product Listing Page](public/home.png)
-Product Detail Page:
-![Product Detail Page](public/product.png)
-
 ## Installation 
 
 Installation:
