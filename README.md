@@ -1,9 +1,5 @@
-# Eteration Frontend Case Study 
+# Ecommerce 
 An application built with React, Redux, TypeScript, and TailwindCSS.
-
-## Pages
- - Product Listing Page(Home)
- - Product Detail Page(Product)
  
 ## Features
  - Product Listing Page
